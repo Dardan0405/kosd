@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.navbar .nav-megamenu{
+    position: fixed;
+    background:#fff;
+    overflow: hidden;
+     
+    padding: 1%;
+    display: none;
+    height: auto;
+    width: 75%;
+    justify-content: space-between;
+    border-radius:  20px;
+    right: 17%;
+    
+   
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    @media(max-width:1320px){
+        box-shadow: rgba(50, 50, 93, 0.1) 0px 5px 10px -2px, rgba(0, 0, 0, 0.15) 0px 2px 5px -3px;
+    }
+    @media(max-width:1250px){
+        top: 9vw;
+    }
+}
+.menu-links h5{
+    font-family: 'Roboto', sans-serif; 
+    color: #707070;
+    position: relative;
+ 
+    
+    width: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+.navbar .nav-megamenu .menu-links{
+    
+
+    justify-content: space-between;
+    flex: wrap ;
+    width: max(89%,1vw);
+
+}
+.menu-links  .inner-links{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: max(99%,1vw);
+   
+}
+
+
+ .inner-links .Right{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+    width: maX(48.5%,1vw);
+}
+.navbar .Right .Content{
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+width: max(70%,1vw ); 
+  
+}
+.Content .dev{
+ 
+    position: relative;
+    display: flex;
+    width: max(123%,1vw);
+    color: black;
+    text-decoration: none;
+    &:hover{
+        color: #6E53FF;
+    }
+    
+}
+.Content .dev .title{
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    
+    width: max(87% ,1vw);
+    
+    p {
+    
+    font-family:  'Gothic A1', sans-serif;
+    font-size: 16.5px;
+    
+    }
+
+}
+.Content .dev .icon{
+    
+    display: flex;
+    position: relative;
+    
+    align-items: center;
+    font-size: 16.5px;
+    }
+ 
+
+.inner-links .Left{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+    width:max(48.5%,1vw);
+    
+}
+.navbar .Left .Contents{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: max(71%,1vw);
+}
+.Contents .devs {
+    position: relative;
+    display: flex;
+    width: max(160%,1vw);
+    text-decoration: none;  
+    color: black;
+    &:hover{
+        color: #6E53FF;
+    }
+}
+.Contents .devs .titles{
+    display: flex;
+    position: relative;
+    
+    width: max(65%,1vw);
+    p{
+      
+    font-size: 16.5px;
+    font-family: 'Gothic A1', sans-serif;
+    }
+}
+.Contents .devs .icons{
+
+    
+    
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-size: 16.5px;
+    
+}
+/*For Topics*/
+
+
+.navbar .course-megamenu {
+    
+    width: 60%;
+   .menu-links{
+  
+    width: 60%;
+   }
+    
+    
+    .Topics{
+        
+        width: max(19%,1vw);
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        
+        
+        }
+        
+}
+.Topics h5{
+    color: #707070;
+    position: relative;
+    
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.Topics  .languages-main{
+ margin:max(10.5px);
+ position: relative;
+ display: flex;
+ width: max(141.5%,1vw);
+ align-items: center;
+ justify-content: flex-start;
+
+ color: black;
+ text-decoration: none;
+}
+.Topics .languages-main .icon-container{
+    align-items: center;
+    border-radius: 50%;
+    border-style: dashed;
+    border-width: thin;
+    border-color: #707070;
+    display: flex;
+    height: max(40px,2vw);
+    justify-content: center;
+    position: relative;
+    width: max(40px,2vw);
+    .icon-style{
+
+        max-height: 53%;
+        position: relative;
+        width: 55%;
+        z-index: 3;
+    }
+    .bg{
+        border-radius: 50%;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top:0;
+        width: 100%;
+    }
+    
+
+}
+.Topics .languages-main .block{
+    
+    display: flex;
+    position: relative;
+    width: 33%;
+    color: black;
+    justify-content: center;
+     h4{
+        font-family: 'Gothic A1', sans-serif;
+        font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    position: relative;
+    
+    }
+
+}
+  .Line{
+    display: flex ;
+    position: relative;
+    width: max(10%,1vw);
+    justify-content: center;
+    align-items: center;
+.mid-line{
+    width: max(15%,1vw);
+    border-right: 0.5px solid gray;
+    height: max(89%,1vw);
+    position: absolute;
+    color: #707070;
+}
+}
+
+
+ 
+/*popular Courses*/
+
+
+.Popular{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: flex-start;
+        align-items: center;
+        width: max(31%,1vw);
+    }
+      
+    .Popular  h5{
+        position: relative;
+        text-transform: uppercase;
+        width: 100%;
+        font-size: 14px;
+        color: #707070;
+    }
+    .iconss{color: blue;
+    }
+        
+.Web{
+    background:linear-gradient(40deg, rgba(112, 112, 112, 100%),   rgba(59, 55, 55, 0)),  
+                url('../../../../assets/Home/Categories/Web1.png');
+                background-repeat:no-repeat ;
+                border-radius: 20px;
+                background-size: cover;
+                background-position: center;
+                position: relative;
+                width: max(119%,1vw);
+                color: white;
+                height: 12%;
+                justify-content: flex-start;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+
+    
+
+}
+
+
+   
+
+
+
+
+
+
+   
+ 
